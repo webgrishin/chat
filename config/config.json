@@ -1,0 +1,22 @@
+{
+  "port": 3000,
+  "mongoose": {
+    "uri": "mongodb://localhost/chat",
+    "options": {
+      "useNewUrlParser": true,
+      "useCreateIndex": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "session": {
+    "secret": "KillerIsJim",
+    "name": "cookieFileName",
+    // are set by default
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "secure": false,
+      "maxAge": null
+    }
+  }
+}
